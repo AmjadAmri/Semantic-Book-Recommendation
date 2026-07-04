@@ -44,6 +44,8 @@ The system leverages Sentence Transformers to generate dense vector embeddings f
 
 
 ## Recommendation Pipeline
+
+```mermaid
 flowchart LR
 
 A[User Query]
@@ -56,6 +58,7 @@ C-->D[ChromaDB Vector Search]
 D-->E[Similarity Ranking]
 
 E-->F[Top-K Recommended Books]
+```
 
 ## Evaluation Framework
 
